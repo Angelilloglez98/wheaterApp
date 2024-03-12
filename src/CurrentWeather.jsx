@@ -7,17 +7,17 @@ export function CurrentWeather({location,currentData,temperature}) {
 
 
     const images={
-        Clear:'/public/assets/Clear.png',
-        'overcast clouds':'/public/assets/HeavyCloud.png',
-        'haze':'/public/assets/foggy.png',
-        'clear sky':'/public/assets/Clear.png',
-        'few clouds':'/public/assets/LightCloud.png',
-        'broken clouds':'/public/assets/LightCloud.png',
-        'drizzle':'/public/assets/LightRain.png',
-        'scattered clouds':'/public/assets/LightCloud.png',
-        'light rain':'/public/assets/LightRain.png',
-        'moderate rain':'/public/assets/HeavyRain.png',
-        'fog':'/public/assets/foggy.png'
+        Clear:'assets/Clear.png',
+        'overcast clouds':'assets/HeavyCloud.png',
+        'haze':'assets/foggy.png',
+        'clear sky':'assets/Clear.png',
+        'few clouds':'assets/LightCloud.png',
+        'broken clouds':'assets/LightCloud.png',
+        'drizzle':'assets/LightRain.png',
+        'scattered clouds':'assets/LightCloud.png',
+        'light rain':'assets/LightRain.png',
+        'moderate rain':'assets/HeavyRain.png',
+        'fog':'assets/foggy.png'
     }
     const timeElapsed = Date.now();
     const today = new Date(timeElapsed);
