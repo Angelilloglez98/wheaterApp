@@ -1,0 +1,117 @@
+  
+  .currentWeather > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        width: 100%;
+  }
+.containerImg{
+    padding: 5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .containerImg::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/Cloud-background.png');
+    background-position: center;
+    left: 0;
+    top: 0;
+    opacity: 0.2;
+  
+  }
+
+  
+  .temperature{
+    font-size: 2rem;
+  }
+  .temperature span{
+    font-size: 6rem;
+  }
+  
+  .containerForm{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+  }
+  .containerForm >div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0;
+    font-size: 1.5em;
+  }
+  .containerForm form{
+    display: flex;
+    justify-content: center;
+    column-gap: .5rem;
+  }
+  
+  .containerForm form input[type="text"]{
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+  }
+  
+  
+  
+  .containerForm form input[type="submit"]{
+    padding: 0 1rem;
+    background-color: rgb(66, 66, 248);
+    border: 1px solid rgb(66, 66, 248);
+    
+  }
+  input{
+    outline: none;
+  }
+  
+  .location{
+    display: flex;
+    border: 1px solid rgb(133, 133, 133);
+  }
+  .location svg{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .location::before{
+    content: '';
+  }
+  
+  .containerForm > p{
+    text-align: start;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border: 1px solid transparent;
+  }
+  .containerForm > p:hover{
+    border: 1px solid gray;
+  }
+  
+  .option{
+    display: block;
+    background-color: transparent;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    padding: 1rem;
+    margin: auto;
+    border: 1px solid transparent;
+    cursor: pointer;
+  
+  }
+  .option:hover{
+    border: 1px solid rgb(202, 202, 202);
+  }
+  p{
+    text-align: center;
+  }
+
+  .containerButton > button{
+    background-color: rgb(163, 163, 163);
+  }
+

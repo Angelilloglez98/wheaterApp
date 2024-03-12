@@ -1,0 +1,67 @@
+#root{
+  width: 100%;
+}
+
+.weatherApp{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 500px auto;
+}
+.weekWeather{
+  padding: 3rem 6rem ;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;  
+}
+
+.buttonsTemperature{
+  align-self: end;
+  display: flex;
+  column-gap: 1rem;
+}
+
+.buttonsTemperature button{
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.selected{
+  background-color: white;
+  color: rgb(16,14,29);
+}
+
+.currentWeather{
+  
+  background-color: rgb(30,33,58);
+}
+.todayHigtlights{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+.card{
+  padding: 1rem 6rem;
+  background-color: rgb(30,33,58);
+}
+
+
+
+@media (max-width:1000px) {
+  .weatherApp{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:  auto;
+  }
+
+  .todayHigtlights{
+    grid-template-columns: auto;
+  }
+
+
+}
+
+

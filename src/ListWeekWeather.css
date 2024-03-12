@@ -1,0 +1,28 @@
+.listWeekWeather{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    gap: 1rem;
+}
+.cardList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(30,33,58);
+    padding: 0.9rem 2.5rem;
+    
+}
+.cardList p{
+    margin: 5px;
+}
+.cardList img{
+    margin: 0 auto;
+    width: 80px;
+}
+
+@media (max-width:1000px) {
+    .cardList{
+        width: 100%;
+    }
+}
