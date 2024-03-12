@@ -24,21 +24,17 @@ const getDateToday=()=>{
 }
 
 const images={
-    Clear:'/src/assets/Clear.png',
-    'overcast clouds':'/src/assets/HeavyCloud.png',
-    'haze':'/src/assets/foggy.png',
-    'clear sky':'/src/assets/Clear.png',
-    'few clouds':'/src/assets/LightCloud.png',
-    'broken clouds':'/src/assets/LightCloud.png',
-    'drizzle':'/src/assets/LightRain.png',
-    'scattered clouds':'/src/assets/LightCloud.png',
-    'light rain':'/src/assets/LightRain.png',
-    'rain':'/src/assets/LightRain.png',
-    'moderate rain':'/src/assets/HeavyRain.png',
-    'fog':'/src/assets/foggy.png',
-    'snow':'/src/assets/Snow.png',
-    'mist':'/src/assets/foggy.png',
-    'thunderstorm':'/src/assets/Thunderstorm.png'
+    Clear:'/public/assets/Clear.png',
+    'overcast clouds':'/public/assets/HeavyCloud.png',
+    'haze':'/public/assets/foggy.png',
+    'clear sky':'/public/assets/Clear.png',
+    'few clouds':'/public/assets/LightCloud.png',
+    'broken clouds':'/public/assets/LightCloud.png',
+    'drizzle':'/public/assets/LightRain.png',
+    'scattered clouds':'/public/assets/LightCloud.png',
+    'light rain':'/public/assets/LightRain.png',
+    'moderate rain':'/public/assets/HeavyRain.png',
+    'fog':'/public/assets/foggy.png'
 }
 
 
